@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-colour: rgb(167, 167, 167);
+  --accent-colour: rgb(54, 171, 221);
+  --dark-blue: rgb(54, 124, 221);
+  --darker-grey:  rgb(150, 150, 150);
+}
+
+body {
+  background: var(--primary-colour);
+  font-family: Poppins;
+  margin: 0;
+}
+
+.container {
+  background: var(--accent-colour);
+  padding: .5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.container .home-button {
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #313131;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.small-goose {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.list ul {
+  font-size: 30px;
+  list-style-type: none;
+  text-align: center;
+  background: var(--darker-grey);
+  border-radius: 10px;
+  margin-left: 550px;
+  margin-right: 550px;
+}
+
+.list .links {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.list .twitch-logo {
+  width: 25px;
+  margin-bottom: -3px;
+  margin-left: -3px;
+}
+
+.list .youtube-logo {
+  width: 45px;
+  margin-right: -10px;
+  margin-bottom: -4px;
+  margin-left: -10px;
+}
+
+.list .discord-logo {
+  width: 70px;
+  margin-right: -20px;
+  margin-bottom: -13px;
+  margin-left: -20px;
+}
+
+.big-goose {
+  border-radius: 200px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  -webkit-box-shadow: 7px 7px 7px gray;
+          box-shadow: 7px 7px 7px gray;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.bottombar {
+  padding: 3em;
+  background: var(--accent-colour);
+}
+
+.twitchlink:hover {
+  color: #60218a;
+}
+
+.youtubelink:hover {
+  color: #d81d1d;
+}
+
+.discordlink:hover {
+  color: #4f539a;
+}
+
+.genericlink:hover {
+  color: black;
+}
+
+.settingsvideo {
+  border-radius: 15px;
+}
+
+.settingsvideodiv {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.download-svg {
+  background-color: none;
+  width: 20px;
+  margin-bottom: -3px;
+}
+
+.download-svg:hover {
+  background-color: var(--accent-colour);
+  border-radius: 3px;
+}
+
+.css-download:hover {
+  color: black;
+}
+
+.reizu-website:hover {
+  color: black;
+}
+
+.home-button:hover {
+  color: black;
+}
+
+.settings {
+  text-align: center;
+  background: var(--darker-grey);
+  margin-left: 650px;
+  margin-right: 650px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+}
+
+.pastebin:hover {
+  color: black;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.css {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.index {
+  background-image: url(/images/Map_3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.settingsimage {
+  background-image: url(/images/Map_17.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.css {
+  background: var(--darker-grey);
+  margin-left: 550px;
+  margin-right: 550px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=main.css.map */
